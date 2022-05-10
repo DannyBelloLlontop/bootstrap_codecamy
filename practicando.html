@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="practicando.css" type="text/css">
+    <title>Containers</title>
+  </head>
+  
+  <body>
+  	<!-- ESTE ES UN EJEMPLO DE CONTENEDOR "CONTAINER"-->
+    <div class = "container">
+			<h1>Container Example</h1>  
+    </div>
+    
+    <br>
+
+    <div class = "container-fluid">
+        <h1>Container Fluid Example</h1>
+    </div>
+
+    <!-- CONTENEDORES -->
+    <br>
+
+    <div class="container">
+    	<div class="row">
+			<p>Primera Fila</p>    		
+    	</div>
+    	<div class="row">
+    		<p>Segunda Fila</p>    		
+    	</div>
+    </div>
+
+    <!-- FILAS -->
+    <br>
+    <div class="container">
+    	<div class="row">
+			<div class="col-3">
+				<p>Columa 1</p>
+			</div>
+			<div class="col-3">
+				<p>Columa 2</p>
+			</div>
+			<div class="col-3">
+				<p>Columa 3</p>
+			</div>
+			<div class="col-3">
+				<p>Columa 4</p>
+			</div>  		
+    	</div>    	
+    </div>
+
+    <!-- COLUMNAS -->
+    <br>
+    <div class="container">
+    	<div class="row">
+    		<div class="col">
+    			<h3>Una columna en una fila</h3>
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="col">
+    			<p>Dos columnas en una fila</p>
+    		</div>
+    		<div class="col">
+    			<p>Dos columnas en una fila</p>
+    		</div>
+    	</div>
+    		<div class="col">
+    			<p>Tres columnas en una fila</p>
+    		</div>
+    		<div class="col">
+    			<p>Tres columnas en una fila</p>
+    		</div>
+    		<div class="col">
+    			<p>Tres columnas en una fila</p>
+    		</div>
+    </div>
+
+    <!-- CONFIGURACION DE ANCHO DE COLUMNA -->
+    <br>
+    <div class="container">
+    	<div class="row">
+			<div class="col-9">
+				<p>Diferencia De</p>
+			</div>
+			<div class="col-3">
+				<p>Tamaño</p>
+			</div>
+    	</div>
+
+    	<div class="row">
+			<div class="col-3">
+				<p>Columna Derecha</p>
+			</div>
+			<div class="col-6">
+				<p>Columna Central</p>
+			</div>
+			<div class="col-3">
+				<p>Columna Izquierda</p>
+    		</div>
+    	</div>
+    </div>
+
+    <!-- ANCHO DE COLUMNA CON CONTENIDO "AUTO" -->
+    <br>
+    <div class="container">
+    	<div class="row">
+    		<div class="col-auto">
+    			<p>Auto ajustable</p>
+    		</div>
+    		<div class="col-12">
+    			<p>Esta columna ocupa 12 espacios</p>
+    		</div>    		
+    	</div>    	
+    </div>
+
+	<!-- PUNTO DE INTERRUPCION
+		
+		Extra Pequeño 	- xs
+		Pequeña			- sm
+		Medio 			- md
+		Largo			- lg
+		Extra grande	- xl 
+		-->
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h3>6 COLUMNAS DE ANCHO</h3>
+				<p>En pantallas medianas y grandes</p>
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-md-3">
+				<h3>3 COLUMNAS DE ANCHO</h3>
+				<p>En pantallas medianas y grandes</p>
+			</div>
+			<div class="col-md-3">
+				<h3>3 COLUMNAS DE ANCHO</h3>
+				<p>En pantallas medianas y grandes</p>
+			</div>
+			<div class="col-md-3">
+				<h3>3 COLUMNAS DE ANCHO</h3>
+				<p>En pantallas medianas y grandes</p>
+			</div>
+			<div class="col-md-3">
+				<h3>3 COLUMNAS DE ANCHO</h3>
+				<p>En pantallas medianas y grandes</p>
+			</div>				
+		</div>
+	</div>
+
+	<!-- COMBINAR CLASES  -->
+
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-3">
+				<h3>Take advantage of breakpoints!</h3>
+          		<p>This column will have different widths based on screen size</p>
+			</div>
+		</div>
+	</div>
+
+	<!--  -->
+	<div class="container">
+		<div class="row">
+			<div class="col-3">
+				<div class="row">1</div>
+				<div class="row">2</div>
+			</div>
+		</div>
+	</div>
+	
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
